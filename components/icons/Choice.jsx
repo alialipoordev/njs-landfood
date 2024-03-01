@@ -1,7 +1,7 @@
 function Choice() {
   return (
     <svg
-      fill="#53c60b"
+      fill="#0b5cc6"
       width="50px"
       height="50px"
       viewBox="-0.26 0 33.549 33.549"

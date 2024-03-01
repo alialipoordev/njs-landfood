@@ -5,7 +5,7 @@ function Fast() {
       height="50px"
       viewBox="0 0 64 64"
       strokeWidth="4"
-      stroke="#53c60b"
+      stroke="#0b5cc6"
       fill="none"
     >
       <path d="M28.79,44l-9.4-9.4S31.76,5.41,56.77,7C56.77,7,60.25,30.12,28.79,44Z" />
