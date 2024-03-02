@@ -1,3 +1,4 @@
+import DetailsPage from "@/components/templates/DetailsPage";
 import { useRouter } from "next/router";
 
 export default function Details({ data }) {
@@ -7,8 +8,7 @@ export default function Details({ data }) {
     return <h2>Loading page...</h2>;
   }
 
-  console.log(data);
-  return <div>Details</div>;
+  return <DetailsPage {...data} />;
 }
 
 export async function getStaticPaths() {
