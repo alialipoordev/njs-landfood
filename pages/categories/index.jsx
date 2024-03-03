@@ -1,8 +1,7 @@
 import CategoriesPage from "@/components/templates/CategoriesPage";
 
 export default function index({ data }) {
-  console.log(data);
-  return <CategoriesPage />;
+  return <CategoriesPage data={data} />;
 }
 
 export async function getServerSideProps(context) {
